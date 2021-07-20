@@ -4,24 +4,12 @@
 
 .container {
     padding: 0 10px;
-
-    @media #{$brk-narrow} {
-      max-width: 1400px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
   }
   
   .row {
     display: flex;
     flex-direction: column;
     padding: 1em 10px;
-
-    @media #{$brk-narrow} {
-      flex-direction: row;
-    }
-
   }
   
   [class^=col] {
